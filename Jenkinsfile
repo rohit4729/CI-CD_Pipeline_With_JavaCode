@@ -8,7 +8,7 @@ pipeline {
         stage("Checkout Code") {
             steps {
                 // TODO: Put your actual Git URL here
-                git branch: 'main', url: 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
+                git branch: 'master', url: 'https://github.com/YOUR-USERNAME/YOUR-REPO.git'
             }
         }
 
